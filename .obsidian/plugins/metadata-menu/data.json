@@ -1,0 +1,324 @@
+{
+  "presetFields": [
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "01 수와 연산",
+          "2": "02 문자와 식",
+          "3": "03 곱셈 공식과 인수분해",
+          "4": "04 방정식",
+          "5": "05 부등식",
+          "6": "06 함수",
+          "7": "07 여러 가지 도형",
+          "8": "08 도형의 성질",
+          "9": "09 삼각비와 원의 성질",
+          "10": "10 도형의 방정식"
+        }
+      },
+      "name": "THEME",
+      "id": "5kolmJ",
+      "path": ""
+    },
+    {
+      "type": "Input",
+      "tagName": "single",
+      "icon": "pencil",
+      "tooltip": "Accepts any value",
+      "colorClass": "single",
+      "options": {
+        "template": "{{소번호}} {{유형이름}}"
+      },
+      "name": "테마번호",
+      "id": "LGTcvb",
+      "path": ""
+    },
+    {
+      "type": "Date",
+      "tagName": "date",
+      "icon": "calendar-with-checkmark",
+      "tooltip": "Accepts a date",
+      "colorClass": "date",
+      "options": {
+        "dateShiftInterval": "1 day",
+        "dateFormat": "YYYY-MM-DD",
+        "defaultInsertAsLink": true,
+        "linkPath": ""
+      },
+      "name": "작성일",
+      "id": "O2EbHv",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "check-in-circle",
+      "tooltip": "완료한 문제 번호",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "완료문제",
+      "id": "completed01",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "check",
+      "tooltip": "완료한 강의",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "완료강의",
+      "id": "doneLec01",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "check-in-circle",
+      "tooltip": "완료한 문제풀이",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "문제풀이완료",
+      "id": "doneProb01",
+      "path": ""
+    },
+    {
+      "type": "Date",
+      "tagName": "date",
+      "icon": "calendar-with-checkmark",
+      "tooltip": "주 종료일",
+      "colorClass": "date",
+      "options": {
+        "dateShiftInterval": "1 week",
+        "dateFormat": "YYYY-MM-DD",
+        "defaultInsertAsLink": true,
+        "linkPath": ""
+      },
+      "name": "종료일",
+      "id": "endDate01",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "bullet-list",
+      "tooltip": "핵심 단어 목록",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "핵심단어",
+      "id": "keywords01",
+      "path": ""
+    },
+    {
+      "type": "Input",
+      "tagName": "single",
+      "icon": "pencil",
+      "tooltip": "강의 제목",
+      "colorClass": "single",
+      "options": {},
+      "name": "강의제목",
+      "id": "lecture01",
+      "path": ""
+    },
+    {
+      "type": "Number",
+      "tagName": "number",
+      "icon": "plus-minus-glyph",
+      "tooltip": "Accepts a number",
+      "colorClass": "number",
+      "options": {},
+      "name": "페이지 번호",
+      "id": "nMf4i7",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "help-circle",
+      "tooltip": "질문 예정 문제",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "질문예정",
+      "id": "question01",
+      "path": ""
+    },
+    {
+      "type": "Link",
+      "tagName": "link",
+      "icon": "link",
+      "tooltip": "관련 강의 링크",
+      "colorClass": "link",
+      "options": {},
+      "name": "관련강의",
+      "id": "relatedLec",
+      "path": ""
+    },
+    {
+      "type": "Date",
+      "tagName": "date",
+      "icon": "calendar-with-checkmark",
+      "tooltip": "주 시작일",
+      "colorClass": "date",
+      "options": {
+        "dateShiftInterval": "1 week",
+        "dateFormat": "YYYY-MM-DD",
+        "defaultInsertAsLink": true,
+        "linkPath": ""
+      },
+      "name": "시작일",
+      "id": "startDate01",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "target",
+      "tooltip": "이번 주 목표 강의",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "목표강의",
+      "id": "targetLec01",
+      "path": ""
+    },
+    {
+      "type": "Link",
+      "tagName": "link",
+      "icon": "presentation",
+      "tooltip": "선생님 세션 노트",
+      "colorClass": "link",
+      "options": {},
+      "name": "선생님세션",
+      "id": "teacherSess",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "bullet-list",
+      "tooltip": "Accepts multiple values from a list",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "문제풀이노트",
+      "id": "uFArT6",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "강의 시청 상태",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "⚪미시청",
+          "2": "🔵진행중",
+          "3": "✅완료"
+        }
+      },
+      "name": "시청상태",
+      "id": "watchStatus",
+      "path": ""
+    },
+    {
+      "type": "Input",
+      "tagName": "single",
+      "icon": "calendar-days",
+      "tooltip": "주차 정보",
+      "colorClass": "single",
+      "options": {},
+      "name": "주차",
+      "id": "week01",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "cross-in-box",
+      "tooltip": "오답 문제 번호",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "오답문제",
+      "id": "wrong01",
+      "path": ""
+    },
+    {
+      "type": "Select",
+      "tagName": "select",
+      "icon": "right-triangle",
+      "tooltip": "Accepts a single value from a list",
+      "colorClass": "select",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {
+          "1": "⚪ not yet",
+          "2": "🟡 in-progress",
+          "3": "🟢 done"
+        }
+      },
+      "name": "status",
+      "id": "pBn9Wp",
+      "path": ""
+    }
+  ],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "class_folder/",
+  "isAutosuggestEnabled": true,
+  "fileClassAlias": "fileClass",
+  "settingsVersion": "5.14",
+  "firstDayOfWeek": 0,
+  "enableLinks": true,
+  "enableTabHeader": true,
+  "enableEditor": true,
+  "enableBacklinks": true,
+  "enableStarred": true,
+  "enableFileExplorer": true,
+  "enableSearch": true,
+  "enableProperties": true,
+  "tableViewMaxRecords": 20,
+  "frontmatterListDisplay": "asList",
+  "fileClassExcludedFolders": [],
+  "showIndexingStatusInStatusBar": true,
+  "fileIndexingExcludedFolders": [],
+  "fileIndexingExcludedExtensions": [
+    ".excalidraw.md"
+  ],
+  "fileIndexingExcludedRegex": [],
+  "frontmatterOnly": false,
+  "showFileClassSelectInModal": true,
+  "chooseFileClassAtFileCreation": false,
+  "autoInsertFieldsAtFileClassInsertion": false,
+  "fileClassIcon": "atom",
+  "isAutoCalculationEnabled": true
+}

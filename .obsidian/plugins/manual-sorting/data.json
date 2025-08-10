@@ -1,0 +1,41 @@
+{
+  "customFileOrder": {
+    "/": [
+      "Digital_Garden_설정.md",
+      "README.md",
+      "CLAUDE.md",
+      "고1수학-50일 수학",
+      "examples",
+      "templates"
+    ],
+    "고1수학-50일 수학": [
+      "고1수학-50일 수학/강의노트",
+      "고1수학-50일 수학/문제풀이",
+      "고1수학-50일 수학/주간기록",
+      "고1수학-50일 수학/README.md"
+    ],
+    "고1수학-50일 수학/강의노트": [
+      "고1수학-50일 수학/강의노트/강의_08-09_테스트.md",
+      "고1수학-50일 수학/강의노트/강의_테스트.md"
+    ],
+    "고1수학-50일 수학/문제풀이": [
+      "고1수학-50일 수학/문제풀이/08-09_01-5 약분.md"
+    ],
+    "고1수학-50일 수학/주간기록": [
+      "고1수학-50일 수학/주간기록/2025-08_W32.md"
+    ],
+    "examples": [
+      "examples/문제풀이_01-1_2025-08-09.md",
+      "examples/주간학습_2025-W32.md",
+      "examples/강의노트_예제_01-1.md",
+      "examples/강의_01-1_분수와 약수.md"
+    ],
+    "templates": [
+      "templates/weekly-study.md",
+      "templates/problem-solving.md",
+      "templates/lecture-note.md"
+    ]
+  },
+  "draggingEnabled": true,
+  "selectedSortOrder": "manual-sorting"
+}

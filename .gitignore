@@ -1,0 +1,29 @@
+# Obsidian 작업공간 및 캐시
+.obsidian/workspace*
+.obsidian/cache
+.obsidian/workspace-mobile.json
+
+# Digital Garden 빌드 파일
+.vercel
+node_modules/
+package-lock.json
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
+*.swp
+
+# 개인 설정 및 임시 파일
+.trash/
+*.bak
+*.tmp
+*~
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 개인적인 노트 (필요시 활성화)
+# private/
+# 개인_*.md
+# 임시_*.md
