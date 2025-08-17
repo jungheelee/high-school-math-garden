@@ -22,8 +22,12 @@ Thumbs.db
 # IDE 설정
 .vscode/
 .idea/
+.cursor/
+.cursorrules
+.claude
 
 # 개인적인 노트 (필요시 활성화)
 # private/
 # 개인_*.md
 # 임시_*.md
+/CLAUDE.md

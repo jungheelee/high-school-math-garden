@@ -57,8 +57,6 @@ dg-home: true
 ### ❌ 비공개 추천
 - 진행 중인 강의노트
 - 개인 문제풀이
-- CLAUDE.md
-- QuickAdd 설정 가이드
 
 ## 7️⃣ 배포 방법
 1. 공개할 노트에 `dg-publish: true` 추가
