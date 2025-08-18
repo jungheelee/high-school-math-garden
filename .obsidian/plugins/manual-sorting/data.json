@@ -1,6 +1,8 @@
 {
   "customFileOrder": {
     "/": [
+      "index.md",
+      "index.html",
       "Digital_Garden_설정.md",
       "README.md",
       "CLAUDE.md",
