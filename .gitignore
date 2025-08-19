@@ -4,6 +4,10 @@
 .obsidian/workspace-mobile.json
 .obsidian/plugins/digitalgarden/data.json
 
+.env
+.env.local
+.env.production
+
 # Digital Garden 빌드 파일
 .vercel
 node_modules/
