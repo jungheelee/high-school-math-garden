@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/index/","tags":["gardenEntry"]}
 ---
 
+
 # Foundation Notes
 
 고1 수학 50일 완성 프로젝트 - 주 2회 학습으로 체계적인 수학 공부
