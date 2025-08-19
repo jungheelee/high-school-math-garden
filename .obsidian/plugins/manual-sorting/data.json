@@ -7,13 +7,13 @@
       "plugin-info.json",
       "vercel.json",
       "netlify.toml",
-      "examples",
-      "templates",
       "CLAUDE.md",
-      "Digital_Garden_설정.md",
-      "index.md",
+      "obsidian-garden-setup.md",
       "README.md",
-      "고1수학-50일 수학"
+      "index.md",
+      "고1수학-50일 수학",
+      "examples",
+      "templates"
     ],
     "고1수학-50일 수학": [
       "고1수학-50일 수학/강의노트",
@@ -99,8 +99,29 @@
       "src/site/img/tree-3.svg"
     ],
     "src/site/notes": [
+      "src/site/notes/고1수학-50일 수학",
+      "src/site/notes/examples",
+      "src/site/notes/index.md",
       "src/site/notes/notes.json",
       "src/site/notes/notes.11tydata.js"
+    ],
+    "src/site/notes/고1수학-50일 수학": [
+      "src/site/notes/고1수학-50일 수학/강의노트",
+      "src/site/notes/고1수학-50일 수학/주간기록",
+      "src/site/notes/고1수학-50일 수학/README.md"
+    ],
+    "src/site/notes/고1수학-50일 수학/강의노트": [
+      "src/site/notes/고1수학-50일 수학/강의노트/강의_08-18_05강 소수의 덧셈, 뺄셈, 곱셈, 나눗셈(1).md"
+    ],
+    "src/site/notes/고1수학-50일 수학/주간기록": [
+      "src/site/notes/고1수학-50일 수학/주간기록/2025-08_W32.md",
+      "src/site/notes/고1수학-50일 수학/주간기록/2025-08_W33.md",
+      "src/site/notes/고1수학-50일 수학/주간기록/2025-08_W34.md"
+    ],
+    "src/site/notes/examples": [
+      "src/site/notes/examples/강의노트_예제_01-1.md",
+      "src/site/notes/examples/문제풀이_01-1_2025-08-09.md",
+      "src/site/notes/examples/주간학습_2025-W32.md"
     ],
     "src/site/styles": [
       "src/site/styles/custom-style.scss",
