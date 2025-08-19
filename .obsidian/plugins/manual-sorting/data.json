@@ -1,14 +1,19 @@
 {
   "customFileOrder": {
     "/": [
-      "index.md",
-      "index.html",
-      "Digital_Garden_설정.md",
-      "README.md",
-      "CLAUDE.md",
-      "고1수학-50일 수학",
+      "src",
+      "package.json",
+      "package-lock.json",
+      "plugin-info.json",
+      "vercel.json",
+      "netlify.toml",
       "examples",
-      "templates"
+      "templates",
+      "CLAUDE.md",
+      "Digital_Garden_설정.md",
+      "index.md",
+      "README.md",
+      "고1수학-50일 수학"
     ],
     "고1수학-50일 수학": [
       "고1수학-50일 수학/강의노트",
@@ -21,19 +26,92 @@
     ],
     "고1수학-50일 수학/문제풀이": [],
     "고1수학-50일 수학/주간기록": [
-      "고1수학-50일 수학/주간기록/2025-08_W34.md",
+      "고1수학-50일 수학/주간기록/2025-08_W32.md",
       "고1수학-50일 수학/주간기록/2025-08_W33.md",
-      "고1수학-50일 수학/주간기록/2025-08_W32.md"
+      "고1수학-50일 수학/주간기록/2025-08_W34.md"
     ],
     "examples": [
+      "examples/강의노트_예제_01-1.md",
       "examples/문제풀이_01-1_2025-08-09.md",
-      "examples/주간학습_2025-W32.md",
-      "examples/강의노트_예제_01-1.md"
+      "examples/주간학습_2025-W32.md"
+    ],
+    "src": [
+      "src/helpers",
+      "src/site"
+    ],
+    "src/helpers": [
+      "src/helpers/constants.js",
+      "src/helpers/filetreeUtils.js",
+      "src/helpers/linkUtils.js",
+      "src/helpers/userSetup.js",
+      "src/helpers/userUtils.js",
+      "src/helpers/utils.js"
+    ],
+    "src/site": [
+      "src/site/_data",
+      "src/site/_includes",
+      "src/site/img",
+      "src/site/notes",
+      "src/site/styles",
+      "src/site/404.njk",
+      "src/site/favicon.svg",
+      "src/site/feed.njk",
+      "src/site/get-theme.js",
+      "src/site/graph.njk",
+      "src/site/search-index.njk",
+      "src/site/sitemap.njk"
+    ],
+    "src/site/_data": [
+      "src/site/_data/dynamics.js",
+      "src/site/_data/eleventyComputed.js",
+      "src/site/_data/meta.js"
+    ],
+    "src/site/_includes": [
+      "src/site/_includes/components",
+      "src/site/_includes/layouts"
+    ],
+    "src/site/_includes/components": [
+      "src/site/_includes/components/calloutScript.njk",
+      "src/site/_includes/components/filetree.njk",
+      "src/site/_includes/components/filetreeNavbar.njk",
+      "src/site/_includes/components/graphScript.njk",
+      "src/site/_includes/components/linkPreview.njk",
+      "src/site/_includes/components/lucideIcons.njk",
+      "src/site/_includes/components/navbar.njk",
+      "src/site/_includes/components/notegrowthhistory.njk",
+      "src/site/_includes/components/pageheader.njk",
+      "src/site/_includes/components/references.njk",
+      "src/site/_includes/components/searchButton.njk",
+      "src/site/_includes/components/searchContainer.njk",
+      "src/site/_includes/components/searchScript.njk",
+      "src/site/_includes/components/sidebar.njk",
+      "src/site/_includes/components/timestamps.njk"
+    ],
+    "src/site/_includes/layouts": [
+      "src/site/_includes/layouts/index.njk",
+      "src/site/_includes/layouts/note.njk"
+    ],
+    "src/site/img": [
+      "src/site/img/default-note-icon.svg",
+      "src/site/img/outgoing.svg",
+      "src/site/img/tree-1.svg",
+      "src/site/img/tree-2.svg",
+      "src/site/img/tree-3.svg"
+    ],
+    "src/site/notes": [
+      "src/site/notes/notes.json",
+      "src/site/notes/notes.11tydata.js"
+    ],
+    "src/site/styles": [
+      "src/site/styles/custom-style.scss",
+      "src/site/styles/digital-garden-base.scss",
+      "src/site/styles/obsidian-base.scss",
+      "src/site/styles/style.scss"
     ],
     "templates": [
-      "templates/weekly-study.md",
+      "templates/lecture-note.md",
       "templates/problem-solving.md",
-      "templates/lecture-note.md"
+      "templates/weekly-study.md"
     ]
   },
   "draggingEnabled": true,
