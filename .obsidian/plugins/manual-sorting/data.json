@@ -11,24 +11,9 @@
       "obsidian-garden-setup.md",
       "README.md",
       "index.md",
-      "고1수학-50일 수학",
+      "50days-math",
       "examples",
       "templates"
-    ],
-    "고1수학-50일 수학": [
-      "고1수학-50일 수학/강의노트",
-      "고1수학-50일 수학/문제풀이",
-      "고1수학-50일 수학/주간기록",
-      "고1수학-50일 수학/README.md"
-    ],
-    "고1수학-50일 수학/강의노트": [
-      "고1수학-50일 수학/강의노트/강의_08-18_05강 소수의 덧셈, 뺄셈, 곱셈, 나눗셈(1).md"
-    ],
-    "고1수학-50일 수학/문제풀이": [],
-    "고1수학-50일 수학/주간기록": [
-      "고1수학-50일 수학/주간기록/2025-08_W32.md",
-      "고1수학-50일 수학/주간기록/2025-08_W33.md",
-      "고1수학-50일 수학/주간기록/2025-08_W34.md"
     ],
     "examples": [
       "examples/강의노트_예제_01-1.md",
@@ -133,6 +118,21 @@
       "templates/lecture-note.md",
       "templates/problem-solving.md",
       "templates/weekly-study.md"
+    ],
+    "50days-math": [
+      "50days-math/lectures",
+      "50days-math/problems",
+      "50days-math/weekly",
+      "50days-math/README.md"
+    ],
+    "50days-math/lectures": [
+      "50days-math/lectures/강의_08-18_05강 소수의 덧셈, 뺄셈, 곱셈, 나눗셈(1).md"
+    ],
+    "50days-math/problems": [],
+    "50days-math/weekly": [
+      "50days-math/weekly/2025-08_W32.md",
+      "50days-math/weekly/2025-08_W33.md",
+      "50days-math/weekly/2025-08_W34.md"
     ]
   },
   "draggingEnabled": true,

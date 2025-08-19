@@ -1,12 +1,14 @@
 ---
 dg-publish: true
+permalink: /math-dashboard/
+title: 고1 수학 대시보드
 ---
 
 # 고1 수학 학습 대시보드
 
 ## 📊 전체 진도 현황
 ```dataviewjs
-const pages = dv.pages('"고1수학-50일 수학/주간기록"');
+const pages = dv.pages('"50days-math/weekly"');
 const 총완료 = pages.map(p => (p.완료강의 || []).length).array().reduce((a,b) => a+b, 0);
 const 진도율 = Math.round(총완료/45*100);
 
@@ -22,7 +24,7 @@ TABLE
   length(계획강의) as "📋 계획",
   length(완료강의) as "✅ 완료",
   choice(문제풀이완료, "✅", "❌") as "📝 문제"
-FROM "고1수학-50일 수학/주간기록"
+FROM "50days-math/weekly"
 SORT 주차 DESC
 LIMIT 4
 ```
@@ -33,7 +35,7 @@ const today = dv.date("today");
 const monthStr = today.toFormat("yyyy-MM");
 const monthKor = today.toFormat("M월");
 
-const pages = dv.pages('"고1수학-50일 수학/주간기록"')
+const pages = dv.pages('"50days-math/weekly"')
   .where(p => p.file.name.includes(monthStr));
 
 const 계획총합 = pages.map(p => (p.계획강의 || []).length).array().reduce((a,b) => a+b, 0);
@@ -56,7 +58,7 @@ dv.paragraph(`
 ### 📘 수학(상) - 45강 [현재 진행중]
 ```dataviewjs
 // 현재 완료한 강의 수를 실제 데이터에서 가져오기
-const allPages = dv.pages('"고1수학-50일 수학/주간기록"');
+const allPages = dv.pages('"50days-math/weekly"');
 const 완료강의수 = allPages
   .map(p => (p.완료강의 || []).length)
   .array()
@@ -90,10 +92,10 @@ dv.paragraph(`
 
 ## 🗂 프로젝트 구조
 ```
-고1수학-50일 수학/
-├── 강의노트/       # 강의별 정리 (선택)
-├── 문제풀이/       # 오답노트 (선택)
-├── 주간기록/       # 주간 학습 관리 (핵심)
+50days-math/
+├── lectures/       # 강의별 정리 (선택)
+├── problems/       # 오답노트 (선택)
+├── weekly/         # 주간 학습 관리 (핵심)
 └── README.md       # 대시보드 (현재 파일)
 ```
 
