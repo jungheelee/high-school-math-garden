@@ -1,13 +1,189 @@
+/* Border Theme inspired styles for Digital Garden */
+
 body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+    /* Accent colors - Obsidian default purple */
+    --accent-h: 250;
+    --accent-s: 60%;
+    --accent-l: 50%;
+    
+    /* Text colors - Border theme style */
+    --text-normal: hsl(var(--accent-h), 6%, 12%);
+    --text-muted: hsl(var(--accent-h), 9%, 36%);
+    --text-faint: hsl(var(--accent-h), 12%, 64%);
+    
+    /* Base colors - light theme */
+    --color-base-00: #ffffff;
+    --color-base-05: #fcfcfc;
+    --color-base-10: #fafafa;
+    --color-base-20: #f0f0f0;
+    --color-base-25: #e3e3e3;
+    --color-base-30: #e0e0e0;
+    --color-base-35: #d4d4d4;
+    --color-base-40: #bdbdbd;
+    
+    /* Accent colors */
+    --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+    --color-accent-1: hsl(calc(var(--accent-h) - 1), calc(var(--accent-s) * 1.01), calc(var(--accent-l) * 1.075));
+    --color-accent-2: hsl(calc(var(--accent-h) - 3), calc(var(--accent-s) * 1.02), calc(var(--accent-l) * 1.15));
+    
+    /* Apply to Digital Garden elements */
+    --background-primary: var(--color-base-00);
+    --background-primary-alt: var(--color-base-05);
+    --background-secondary: var(--color-base-10);
+    --background-secondary-alt: var(--color-base-20);
+    
+    --text-accent: var(--color-accent);
+    --text-accent-hover: var(--color-accent-2);
+    --interactive-accent: var(--color-accent);
+    --interactive-accent-hover: var(--color-accent-2);
+    
+    /* Border theme specific styles */
+    --border-radius: 8px;
+    --border-color: var(--color-base-30);
+    
+    /* Font settings */
+    --font-size-normal: 16px;
+    --line-height-normal: 1.6;
+}
+
+/* Border theme's characteristic rounded corners */
+.content {
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-normal);
+    color: var(--text-normal);
+}
+
+/* Code blocks with Border style */
+pre {
+    background: var(--color-base-10) !important;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1em;
+}
+
+code {
+    background: var(--color-base-20);
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    color: var(--text-muted);
+}
+
+/* Links with Border accent */
+a {
+    color: var(--text-accent);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--text-accent-hover);
+}
+
+/* Headers with Border style */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-normal);
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2em;
+    border-bottom: 2px solid var(--color-base-25);
+    padding-bottom: 0.3em;
+}
+
+h2 {
+    font-size: 1.6em;
+    border-bottom: 1px solid var(--color-base-30);
+    padding-bottom: 0.2em;
+}
+
+/* Blockquotes with Border style */
+blockquote {
+    border-left: 4px solid var(--color-accent);
+    background: var(--color-base-05);
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: var(--border-radius);
+}
+
+/* Tables with Border style */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+
+th, td {
+    border: 1px solid var(--border-color);
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background: var(--color-base-20);
+    font-weight: 600;
+}
+
+tr:nth-child(even) {
+    background: var(--color-base-05);
+}
+
+/* Navigation with Border style */
+.navbar {
+    background: var(--background-secondary);
+    border-bottom: 1px solid var(--border-color);
+    padding: 1em;
+}
+
+.sidebar {
+    background: var(--background-secondary-alt);
+    border-right: 1px solid var(--border-color);
+}
+
+/* File tree with Border style */
+.filetree-sidebar {
+    background: var(--color-base-10);
+    border-radius: var(--border-radius);
+    padding: 1em;
+    margin: 1em 0;
+}
+
+/* Graph view colors */
+.graph-view {
+    background: var(--background-primary);
+}
+
+/* Callouts/Admonitions */
+.callout {
+    background: var(--color-base-05);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1em;
+    margin: 1em 0;
+}
+
+/* Search box */
+.search-container input {
+    background: var(--color-base-10);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 0.5em;
+    color: var(--text-normal);
+}
+
+/* Button styles */
+button, .button {
+    background: var(--color-accent);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover, .button:hover {
+    background: var(--color-accent-2);
 }
