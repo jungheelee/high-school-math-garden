@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/index/","tags":["gardenEntry"],"noteIcon":""}
+{"dg-publish":true,"permalink":"/src/site/notes/index/","tags":["gardenEntry"],"noteIcon":""}
 ---
+
 
 
 # Foundation Notes
