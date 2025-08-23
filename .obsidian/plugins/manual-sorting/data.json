@@ -13,7 +13,8 @@
       "index.md",
       "50days-math",
       "examples",
-      "templates"
+      "templates",
+      "images"
     ],
     "50days-math": [
       "50days-math/lectures",
@@ -26,14 +27,17 @@
     ],
     "50days-math/problems": [],
     "50days-math/weekly": [
-      "50days-math/weekly/2025-08_W32.md",
+      "50days-math/weekly/2025-08_W34.md",
       "50days-math/weekly/2025-08_W33.md",
-      "50days-math/weekly/2025-08_W34.md"
+      "50days-math/weekly/2025-08_W32.md"
     ],
     "examples": [
       "examples/강의노트_예제_01-1.md",
       "examples/문제풀이_01-1_2025-08-09.md",
       "examples/주간학습_2025-W32.md"
+    ],
+    "images": [
+      "images/IMG_25F36565C4AA-1.jpeg"
     ],
     "src": [
       "src/helpers",
@@ -99,10 +103,24 @@
       "src/site/img/tree-3.svg"
     ],
     "src/site/notes": [
+      "src/site/notes/50days-math",
       "src/site/notes/examples",
       "src/site/notes/index.md",
       "src/site/notes/notes.json",
       "src/site/notes/notes.11tydata.js"
+    ],
+    "src/site/notes/50days-math": [
+      "src/site/notes/50days-math/lectures",
+      "src/site/notes/50days-math/weekly",
+      "src/site/notes/50days-math/README.md"
+    ],
+    "src/site/notes/50days-math/lectures": [
+      "src/site/notes/50days-math/lectures/강의_08-18_05강 소수의 덧셈, 뺄셈, 곱셈, 나눗셈(1).md"
+    ],
+    "src/site/notes/50days-math/weekly": [
+      "src/site/notes/50days-math/weekly/2025-08_W32.md",
+      "src/site/notes/50days-math/weekly/2025-08_W33.md",
+      "src/site/notes/50days-math/weekly/2025-08_W34.md"
     ],
     "src/site/notes/examples": [
       "src/site/notes/examples/강의노트_예제_01-1.md",

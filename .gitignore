@@ -14,8 +14,9 @@ node_modules/
 package-lock.json
 dist/
 
-# 중첩된 src 디렉토리 방지
-src/site/notes/src/
+# Digital Garden이 관리하는 파일들 (플러그인이 자동으로 생성/업데이트)
+# 이 파일들은 플러그인이 GitHub에 직접 푸시합니다
+# src/site/notes/ 폴더는 플러그인이 관리하므로 git에서 제외하지 않습니다
 
 # 시스템 파일
 .DS_Store
