@@ -8,7 +8,7 @@
 ## 📊 전체 진도 현황
 <div><table class="dataview table-view-table"><thead class="table-view-thead"><tr class="table-view-tr-header"><th class="table-view-th"><span>현재 진도</span><span class="dataview small-text">1</span></th><th class="table-view-th"><span>다음 목표</span></th></tr></thead><tbody class="table-view-tbody"><tr><td><span>🎯 수학(상): 8/45강 (18%)</span></td><td><span>📅 수학(하): 0/34강</span></td></tr></tbody></table></div>
 
-## 📅 최근 4주 학습 현황
+## 📅 최근 4주 학습 현황 (업데이트)
 | File                                               | 주차       | 📋 계획 | ✅ 완료 | 📝 문제 |
 | -------------------------------------------------- | -------- | ----- | ---- | ----- |
 | [[50days-math/weekly/2025-08_W34\|2025-08_W34]] | 2025-W34 | 4     | 4    | ✅     |
@@ -63,3 +63,4 @@
 
 ---
 *주 2회, 꾸준히*
+<!-- Updated: 2024-08-23 -->
