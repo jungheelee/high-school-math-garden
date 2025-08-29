@@ -6,12 +6,13 @@
 # 고1 수학 학습 대시보드
 
 ## 📊 전체 진도 현황
-<div><table class="dataview table-view-table"><thead class="table-view-thead"><tr class="table-view-tr-header"><th class="table-view-th"><span>현재 진도</span><span class="dataview small-text">1</span></th><th class="table-view-th"><span>다음 목표</span></th></tr></thead><tbody class="table-view-tbody"><tr><td><span>🎯 수학(상): 8/45강 (18%)</span></td><td><span>📅 수학(하): 0/34강</span></td></tr></tbody></table></div>
+<div><table class="dataview table-view-table"><thead class="table-view-thead"><tr class="table-view-tr-header"><th class="table-view-th"><span>현재 진도</span><span class="dataview small-text">1</span></th><th class="table-view-th"><span>다음 목표</span></th></tr></thead><tbody class="table-view-tbody"><tr><td><span>🎯 수학(상): 6/45강 (13%)</span></td><td><span>📅 수학(하): 0/34강</span></td></tr></tbody></table></div>
 
 ## 📅 최근 4주 학습 현황 (업데이트)
 | File                                               | 주차       | 📋 계획 | ✅ 완료 | 📝 문제 |
 | -------------------------------------------------- | -------- | ----- | ---- | ----- |
-| [[50days-math/weekly/2025-08_W34\|2025-08_W34]] | 2025-W34 | 4     | 4    | ✅     |
+| [[50days-math/weekly/2025-08_W35\|2025-08_W35]] | 2025-W35 | 2     | 2    | ❌     |
+| [[50days-math/weekly/2025-08_W34\|2025-08_W34]] | 2025-W34 | 4     | 0    | ✅     |
 | [[50days-math/weekly/2025-08_W33\|2025-08_W33]] | 2025-W33 | 2     | 2    | ✅     |
 | [[50days-math/weekly/2025-08_W32\|2025-08_W32]] | 2025-W32 | 2     | 2    | ✅     |
 
@@ -20,18 +21,18 @@
 ## 📈 이번 달 학습 분석
 <p><span><p dir="auto">📊 <strong>8월 학습 요약</strong></p>
 <ul>
-<li dir="auto">활동 주차: 3주</li>
-<li dir="auto">강의 진도: 8강 계획 → 8강 완료</li>
-<li dir="auto">달성률: 100%</li>
-<li dir="auto">주평균: 2.7강</li>
-<li dir="auto">문제풀이: 3/3주 완료</li>
+<li dir="auto">활동 주차: 4주</li>
+<li dir="auto">강의 진도: 10강 계획 → 6강 완료</li>
+<li dir="auto">달성률: 60%</li>
+<li dir="auto">주평균: 1.5강</li>
+<li dir="auto">문제풀이: 3/4주 완료</li>
 </ul></span></p>
 
 ## 📚 전체 커리큘럼
 
 ### 📘 수학(상) - 45강 [현재 진행중]
-<p><span><strong>진도</strong>: 8/45강 (18%)<br>
-<strong>예상 완료</strong>: 2026년 1월 (약 19주 소요)</span></p>
+<p><span><strong>진도</strong>: 6/45강 (13%)<br>
+<strong>예상 완료</strong>: 2026년 1월 (약 20주 소요)</span></p>
 - [ ] 01 수와 연산 (1-11강)  
 - [ ] 02 문자와 식 (18-21강)  
 - [ ] 03 곱셈 공식과 인수분해 (22-32강)  
