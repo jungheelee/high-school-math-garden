@@ -6,33 +6,33 @@
 # 고1 수학 학습 대시보드
 
 ## 📊 전체 진도 현황
-<div><table class="dataview table-view-table"><thead class="table-view-thead"><tr class="table-view-tr-header"><th class="table-view-th"><span>현재 진도</span><span class="dataview small-text">1</span></th><th class="table-view-th"><span>다음 목표</span></th></tr></thead><tbody class="table-view-tbody"><tr><td><span>🎯 수학(상): 14/45강 (31%)</span></td><td><span>📅 수학(하): 0/34강</span></td></tr></tbody></table></div>
+<div><table class="dataview table-view-table"><thead class="table-view-thead"><tr class="table-view-tr-header"><th class="table-view-th"><span>현재 진도</span><span class="dataview small-text">1</span></th><th class="table-view-th"><span>다음 목표</span></th></tr></thead><tbody class="table-view-tbody"><tr><td><span>🎯 수학(상): 17/45강 (38%)</span></td><td><span>📅 수학(하): 0/34강</span></td></tr></tbody></table></div>
 
 ## 📅 최근 4주 학습 현황 (업데이트)
 | File                                               | 주차       | 📋 계획 | ✅ 완료 | 📝 문제 |
 | -------------------------------------------------- | -------- | ----- | ---- | ----- |
+| [[50days-math/weekly/2025-09_W40\|2025-09_W40]] | 2025-W40 | 3     | 2    | ❌     |
+| [[50days-math/weekly/2025-09_W39\|2025-09_W39]] | 2025-W39 | 2     | 1    | ❌     |
 | [[50days-math/weekly/2025-09_W38\|2025-09_W38]] | 2025-W38 | 3     | 2    | ✅     |
 | [[50days-math/weekly/2025-09_W37\|2025-09_W37]] | 2025-W37 | 3     | 2    | ❌     |
-| [[50days-math/weekly/2025-09_W36\|2025-09_W36]] | 2025-W36 | 2     | 1    | ✅     |
-| [[50days-math/weekly/2025-08_W35\|2025-08_W35]] | 2025-W35 | 2     | 1    | ❌     |
 
 { .block-language-dataview}
 
 ## 📈 이번 달 학습 분석
 <p><span><p dir="auto">📊 <strong>9월 학습 요약</strong></p>
 <ul>
-<li dir="auto">활동 주차: 3주</li>
-<li dir="auto">강의 진도: 8강 계획 → 5강 완료</li>
-<li dir="auto">달성률: 63%</li>
-<li dir="auto">주평균: 1.7강</li>
-<li dir="auto">문제풀이: 2/3주 완료</li>
+<li dir="auto">활동 주차: 5주</li>
+<li dir="auto">강의 진도: 13강 계획 → 8강 완료</li>
+<li dir="auto">달성률: 62%</li>
+<li dir="auto">주평균: 1.6강</li>
+<li dir="auto">문제풀이: 2/5주 완료</li>
 </ul></span></p>
 
 ## 📚 전체 커리큘럼
 
 ### 📘 수학(상) - 45강 [현재 진행중]
-<p><span><strong>진도</strong>: 14/45강 (31%)<br>
-<strong>예상 완료</strong>: 2026년 1월 (약 16주 소요)</span></p>
+<p><span><strong>진도</strong>: 17/45강 (38%)<br>
+<strong>예상 완료</strong>: 2026년 1월 (약 14주 소요)</span></p>
 - [ ] 01 수와 연산 (1-11강)  
 - [ ] 02 문자와 식 (18-21강)  
 - [ ] 03 곱셈 공식과 인수분해 (22-32강)   
